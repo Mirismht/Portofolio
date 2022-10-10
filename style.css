@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 99%;
+    color: rgb(39, 38, 38);
+    margin: auto;
+    padding: auto;
+    overflow-x: hidden;
+}
+
+/*HEADER*/
+header {
+    border-bottom: 2px solid;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.navbar h2 {
+    position: relative;
+    top: 30px;
+    right: 188px;
+}
+
+.navbar ul li a{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+}
+
+.navbar li  {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    flex-direction: row; 
+}
+
+.navbar ul {
+    margin-left: 200px;
+}
