@@ -1,45 +1,141 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 99%;
+    width: 100%;
     color: rgb(39, 38, 38);
     margin: auto;
     padding: auto;
     overflow-x: hidden;
+    max-width: 1100px;
+    height: 100%;
+    
 }
 
 /*HEADER*/
-header {
-    border-bottom: 2px solid;
-}
+
 
 .navbar {
     display: flex;
     align-items: center;
-    margin: 10px 10px;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 2px solid;  
+    align-items: flex-end;
+    
 }
 
-.navbar h2 {
-    position: relative;
-    top: 30px;
-    right: 188px;
-}
-
-.navbar ul li a{
-    margin: 0;
+.navbar ul{
+    
+    display: flex;
+    list-style-type: none;
     padding: 0;
-    align-items: center;
+    margin-right: 0;
+    float: right;
+    text-align: center;
+    
+    
+}
+
+.navbar li a{
+    padding: 0;
+    margin:20px;
     text-decoration: none;
     color: rgb(39, 38, 38);
+    
 }
 
-.navbar li  {
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    flex-direction: row; 
+.logo{
+    margin: 10px;
 }
 
-.navbar ul {
-    margin-left: 200px;
+
+/*MAIN*/
+
+main {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main h2{
+    margin-top: 50px
+}
+
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutme  {
+    width: 700px;
+   line-height: 1.4em;
+}
+
+.myphoto img{
+    width: 300px;
+    height: 500px;
+}
+
+
+
+/*FOOTER*/
+
+footer p {
+    text-align: center;
+    
+}
+
+/*Responsive*/
+
+/*tablet*/
+@media screen and (min-width:768px)and(max-width:1023px){
+    
+}
+
+/*smartphone*/
+@media screen and (max-width:767px){
+    .logo{
+        font-size: 1.5em;
+        
+    }
+    
+    .navbar ul {
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+    
+    .navbar li a{
+        margin: 5px
+    }
+    
+    /*main*/
+    
+    .container {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    main h2 {
+        font-size: 1em;
+    }
+    
+    main p{
+        font-size: 0.9em;
+        margin: auto;
+    }
+    
+    .myphoto img{
+        margin: 20px 85px;
+        padding: 0;
+        
+    }
+    
+    
+    
 }
