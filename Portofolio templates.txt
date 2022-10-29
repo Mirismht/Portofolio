@@ -1,0 +1,26 @@
+*About Me*
+
+-----
+
+Hey there, I'm Mirisa and I'm a very enthusiastic, self-taught front-end developer. 
+Having had always a passion for programming, I decided to become a front-end developer. 
+After working as a human resources specialist for more than five years, I made the decision 
+to learn coding on Codecademy and Udemy, where I have learned a great deal. 
+The things that were key for me to continue were commitment, attitude focused and continuity
+ in my learning process. Personally, I like the fact that there is always something new to learn in this field, 
+as I tend to be a person who wants to keep acquiring new skills. 
+I am looking forwards for opportunities to create a career as a web developer and i would 
+really welcome a chance to collaborate with your company.
+
+------------------
+                                                                                                                                                         ---
+*skills*
+**My scope of knowledge covers:**
+✅ HTML5
+✅ CSS3 (SCSS)
+✅ Javascript (ES5, ES6) / Jquery
+✅ Bootstrap 4
+✅ Git
+✅ GitHub
+✅ Adobe Photoshop
+✅ Figma
