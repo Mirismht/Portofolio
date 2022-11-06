@@ -1,20 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant:400,700|Playfair+Display:900");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --clr-light: #fffff3;
+    --clr-dark: #00332a;
+    --ff-title: "Playfair Display", serif;
+    --ff-body: "Assistant", sans-serif;
+  }
+  
+
+
 body {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    color: rgb(39, 38, 38);
-    margin: auto;
-    padding: auto;
+    font-family: var(--ff-body);
+    width: min(90%, 1200px);
+    color: var(--clr-dark);
     overflow-x: hidden;
-    max-width: 1100px;
-    height: 100%;
-    
+    margin: auto;
+    max-width:100%;
 }
 
 /*HEADER*/
 
 
+
 .navbar {
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,6 +52,7 @@ body {
     text-align: center;
     
     
+    
 }
 
 .navbar li a{
@@ -41,11 +60,13 @@ body {
     margin:20px;
     text-decoration: none;
     color: rgb(39, 38, 38);
+    font-size: clamp(0.78rem, calc(0.63rem + 0.83vw), 1.25rem);
     
 }
 
 .logo{
-    margin: 10px;
+    
+    font-size: clamp(1.25rem, calc(0.92rem + 1.78vw), 2.25rem);
 }
 
 
@@ -58,12 +79,14 @@ main {
 }
 
 main h2{
-    margin-top: 50px
+    margin-top: 50px;
+    font-family: var(--ff-title);
+    padding-bottom: 10px;
 }
 
 
 .container {
-    margin-top: 50px;
+    margin-top: 77px;
     display: flex;
     max-width: 100%;
     justify-content: space-between;
@@ -76,11 +99,35 @@ main h2{
 }
 
 .myphoto img{
-    width: 300px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
+    margin-left: 93px;
 }
 
+.projects li {
+    list-style-type: none;
+    line-height: 2;
+}
 
+.projects a{
+   text-decoration: none; 
+   
+}
+
+.projects a:hover {
+    color:#263cb9;
+    font-weight:700;
+}
+
+.contact-icon {
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.contact-icon img{
+    width: min(30%, 100px);
+
+}
 
 /*FOOTER*/
 
@@ -99,7 +146,8 @@ footer p {
 /*smartphone*/
 @media screen and (max-width:767px){
     .logo{
-        font-size: 1.5em;
+        font-size: 18;
+        min-width:fit-content ;
         
     }
     
@@ -131,7 +179,7 @@ footer p {
     }
     
     .myphoto img{
-        margin: 20px 85px;
+        margin: 20px 40px;
         padding: 0;
         
     }
