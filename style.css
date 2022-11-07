@@ -129,6 +129,17 @@ main h2{
 
 }
 
+.skills img{
+    width: 75px;
+    
+}
+
+.skills ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
 /*FOOTER*/
 
 footer p {
